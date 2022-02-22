@@ -7,9 +7,7 @@ import lombok.Data;
 @Builder
 @Data
 public class UserLoginRequest {
-    @JsonProperty("email")
     String email;
 
-    @JsonProperty("password")
     String password;
 }

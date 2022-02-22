@@ -10,15 +10,11 @@ import java.util.List;
 @Data
 public class ArticleRequest {
 
-    @JsonProperty("tagList")
     private List<String> tagList;
 
-    @JsonProperty("description")
     private String description;
 
-    @JsonProperty("title")
     private String title;
 
-    @JsonProperty("body")
     private String body;
 }
